@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    margin: 10px;
+    color: blueviolet;
+    cursor: pointer;
+
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: red;
+}
+
+.heading1 {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: capitalize;
+
+}
+
+.text {
+    text-indent: 50px;
+
+    text-shadow: 1px 1px red;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+
+#div1 {
+    width: 100%;
+    height: 400px;
+    background-image: url("https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    opacity: 0.80;
+    color: white;
+}
+
+.border {
+    width: 400px;
+    height: 400px;
+    border: 5px solid green;
+    border-radius: 20%;
+    padding: 50px;
+    color: white;
+    margin-top: 10px;
+    background-color: darkblue;
+}
+
+.outline-button {
+    width: 100px;
+    height: 50px;
+    outline: 3px solid green;
+
+}
