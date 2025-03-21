@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+
+    height: 80px;
+    border: 2px solid #f2f9ff;
+     padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 600px;
+    padding: 20px;
+
+}
+
+
+
+.navlinks ul {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+
+.navlinks ul>li>a {
+
+    text-decoration: none;
+}
+
+.navlinks ul>li>a:hover {
+    color: orange;
+    text-decoration: none;
+}

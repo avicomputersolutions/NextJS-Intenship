@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 800px;
+    height: 800px;
+    border: 2px solid green;
+
+    position: relative;
+}
+
+.one {
+    width: 200px;
+    height: 100px;
+
+
+    position: absolute;
+    top: 305px;
+    left: 210px;
+    z-index: 2;
+    background-color: white;
+}
+
+.two {
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    background-color: red;
+    position: absolute;
+}
+
+h1::before {
+    content: '"';
+}
+
+h1::after {
+    content: '"';
+}
+
+ul>li::marker {
+    color: red;
+    background-color: black;
+    font-size: 23px;
+}
+
+h1::selection {
+    color: white;
+    background-color: black;
+    
+}
