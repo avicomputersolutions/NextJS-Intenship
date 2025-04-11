@@ -1,10 +1,11 @@
+import HeroSection from "../_components/HeroSection"
 import NavBar from "../_components/Navbar"
 
-const ContactUs = () =>{
+const ContactUs = () => {
     return (
         <div>
-            <NavBar/>
-            Contact us
+            <NavBar />
+            <HeroSection title="Contact us" page="contact" />
         </div>
     )
 }

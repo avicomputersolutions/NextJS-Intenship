@@ -1,10 +1,11 @@
+import HeroSection from "../_components/HeroSection"
 import NavBar from "../_components/Navbar"
 
 const Aboutus = () => {
     return (
         <div>
-            <NavBar/>
-            About us
+            <NavBar />
+            <HeroSection title="About us" page="about" />
         </div>
     )
 }
